@@ -1,4 +1,5 @@
-import { Text, Heading, Image, Box, Link } from 'theme-ui';
+import { Text, Heading, Box, Link } from 'theme-ui';
+import Image from 'next/image';
 
 export default function TeamCard({ src, altText, title, designation, social }) {
   return (

@@ -1,6 +1,5 @@
-import React from 'react';
-import { Image as Img } from 'theme-ui';
+import Image from 'next/image';
 
-export default function Image({ src, ...rest }) {
-  return <Img src={src} {...rest} />;
+export default function Img({ src, ...rest }) {
+return <Image src={src} {...rest} />;
 }

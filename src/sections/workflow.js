@@ -1,8 +1,8 @@
 import { Container, Grid, Box, Heading, Text } from 'theme-ui';
-import SectionHeader from 'components/section-header';
-import PatternBG from 'assets/patternBG.png';
-import ArrowOdd from 'assets/arrowOdd.svg';
-import ArrowEven from 'assets/arrowEven.svg';
+import SectionHeader from '../components/section-header';
+import PatternBG from '../assets/patternBG.png';
+import ArrowOdd from '../assets/arrowOdd.svg';
+import ArrowEven from '../assets/arrowEven.svg';
 
 const data = [
   {

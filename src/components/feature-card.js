@@ -1,4 +1,5 @@
-import { Image, Box, Heading, Text } from 'theme-ui';
+import { Box, Heading, Text } from 'theme-ui';
+import Image from 'next/image';
 
 export default function FeatureCard({
   src,

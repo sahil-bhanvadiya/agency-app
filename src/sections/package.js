@@ -2,9 +2,9 @@ import { Container, Box, Flex } from 'theme-ui';
 import { keyframes } from '@emotion/react'
 import React, { useState } from 'react';
 import Carousel from 'react-multi-carousel';
-import PriceCard from 'components/price-card';
-import ButtonGroup from 'components/button-group';
-import SectionHeader from 'components/section-header';
+import PriceCard from '../components/price-card';
+import ButtonGroup from '../components/button-group';
+import SectionHeader from '../components/section-header';
 import { IoIosCheckmarkCircle, IoIosCloseCircle } from 'react-icons/io';
 
 const packages = {

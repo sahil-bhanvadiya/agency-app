@@ -6,18 +6,18 @@ import {
   Text,
   Heading,
   Button,
-  Image,
 } from 'theme-ui';
+import Image from 'next/image';
 import { keyframes } from '@emotion/react'
 import TextFeature from 'components/text-feature';
-import ModalVideo from 'react-modal-video';
+// import ModalVideo from 'react-modal-video';
 import { IoIosPlay } from 'react-icons/io';
 
-import ServiceThumb from 'assets/service-thumb.png';
-import shapePattern from 'assets/shape-pattern1.png';
+import ServiceThumb from '../assets/service-thumb.png';
+import shapePattern from '../assets/shape-pattern1.png';
 
-import Smart from 'assets/services/smart.svg';
-import Secure from 'assets/services/secure.svg';
+import Smart from '../assets/services/smart.svg';
+import Secure from '../assets/services/secure.svg';
 
 const data = {
   subTitle: 'our services',
@@ -54,7 +54,7 @@ export default function ServiceSection() {
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="Thumbnail" />
-          <Button
+          {/* <Button
             sx={styles.videoBtn}
             onClick={handleClick}
             aria-label="Play Button"
@@ -62,7 +62,7 @@ export default function ServiceSection() {
             <span>
               <IoIosPlay />
             </span>
-          </Button>
+          </Button> */}
 
           <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="Shape" />
@@ -85,12 +85,12 @@ export default function ServiceSection() {
           </Grid>
         </Box>
       </Container>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
         videoId="ZNA9rmDsYVE"
         onClose={() => setVideoOpen(false)}
-      />
+      /> */}
     </section>
   );
 }
@@ -129,6 +129,7 @@ const styles = {
       position: 'relative',
       zIndex: 1,
       height: [310, 'auto'],
+      width: ['auto', null, null, '100%']
     },
   },
   shapeBox: {
