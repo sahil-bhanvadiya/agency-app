@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
-
+import 'react-multi-carousel/lib/styles.css';
+import 'rc-drawer/assets/index.css';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {

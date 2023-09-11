@@ -1,4 +1,4 @@
-import { Container, Grid } from 'theme-ui';
+import { Container, Grid, Box } from 'theme-ui';
 import SectionHeader from '../components/section-header';
 import FeatureCard from '../components/feature-card.js';
 import Performance from '../assets/feature/performance.svg';
@@ -43,7 +43,7 @@ const data = [
 
 export default function Feature() {
   return (
-    <section sx={{ variant: 'section.feature' }}>
+    <Box sx={{ variant: 'section.feature' }}>
       <Container>
         <SectionHeader
           slogan="Quality features"
@@ -62,7 +62,7 @@ export default function Feature() {
           ))}
         </Grid>
       </Container>
-    </section>
+    </Box>
   );
 }
 

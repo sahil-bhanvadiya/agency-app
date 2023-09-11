@@ -71,7 +71,7 @@ const responsive = {
 
 export default function BlogSection() {
   return (
-    <section sx={{ variant: 'section.news' }}>
+    <Box sx={{ variant: 'section.news' }}>
       <Container>
         <SectionHeader
           slogan="our blog"
@@ -115,7 +115,7 @@ export default function BlogSection() {
           </Carousel>
         </Box>
       </Container>
-    </section>
+    </Box>
   );
 }
 

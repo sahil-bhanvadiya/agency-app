@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function TeamCard({ src, altText, title, designation, social }) {
   return (
     <Box sx={styles.card}>
-      <Image src={src} alt={altText} sx={styles.memberThumb} />
+      <Image src={src} alt={altText} style={styles.memberThumb} />
       <Box sx={styles.infoWrapper}>
         <Heading className="info__name" sx={styles.infoWrapper.name}>
           {title}
@@ -57,7 +57,7 @@ const styles = {
     height: ['70px', '80px', '100px', null, null, '130px'],
     flexShrink: 0,
     border: '2px solid',
-    borderColor: 'primary',
+    borderColor: '#EA3A60',
     borderRadius: '50%',
   },
   infoWrapper: {

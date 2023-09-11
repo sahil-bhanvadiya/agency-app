@@ -370,6 +370,11 @@ const styles = {
     },
     '.carousel-container': {
       width: '100%',
+      '> ul ': {
+        display: 'flex',
+        margin: '0',
+        padding: '0',
+      },
       '> ul > li ': {
         display: 'flex',
       },

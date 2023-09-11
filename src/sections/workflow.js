@@ -1,8 +1,8 @@
 import { Container, Grid, Box, Heading, Text } from 'theme-ui';
-import SectionHeader from '../components/section-header';
-import PatternBG from '../assets/patternBG.png';
-import ArrowOdd from '../assets/arrowOdd.svg';
-import ArrowEven from '../assets/arrowEven.svg';
+import SectionHeader from 'components/section-header';
+import PatternBG from 'assets/patternBG.png';
+import ArrowOdd from 'assets/arrowOdd.svg';
+import ArrowEven from 'assets/arrowEven.svg';
 
 const data = [
   {
@@ -33,7 +33,7 @@ const data = [
 
 export default function WorkFlow() {
   return (
-    <section sx={styles.workflow}>
+    <Box sx={styles.workflow}>
       <Container>
         <SectionHeader
           slogan="Whats the function"
@@ -53,14 +53,14 @@ export default function WorkFlow() {
           ))}
         </Grid>
       </Container>
-    </section>
+    </Box>
   );
 }
 
 const styles = {
   workflow: {
     backgroundColor: 'primary',
-    backgroundImage: `url(${PatternBG})`,
+    backgroundImage: `url(${PatternBG.src})`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: 'center center',
     backgroundSize: 'cover',
@@ -110,10 +110,10 @@ const styles = {
       },
     },
     '&:nth-of-type(2n-1)::before': {
-      backgroundImage: `url(${ArrowOdd})`,
+      backgroundImage: `url(${ArrowOdd.src})`,
     },
     '&:nth-of-type(2n)::before': {
-      backgroundImage: `url(${ArrowEven})`,
+      backgroundImage: `url(${ArrowEven.src})`,
       top: 17,
     },
     '&:last-child::before': {
