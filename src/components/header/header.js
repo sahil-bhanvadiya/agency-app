@@ -1,4 +1,4 @@
-import { Container, Flex, Button } from 'theme-ui';
+import { Container, Flex, Button, Box } from 'theme-ui';
 import { keyframes } from '@emotion/react'
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
@@ -10,7 +10,7 @@ import menuItems from './header.data';
 export default function Header({ className }) {
   return (
     <DrawerProvider>
-      <header sx={styles.header} className={className} id="header">
+      <Box sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
           <Logo src={LogoDark} />
 
@@ -40,7 +40,7 @@ export default function Header({ className }) {
 
           <MobileDrawer />
         </Container>
-      </header>
+      </Box>
     </DrawerProvider>
   );
 }
@@ -67,7 +67,7 @@ const styles = {
     position: 'absolute',
     top: 0,
     left: 0,
-    backgroundColor: 'transparent',
+    backgroundColor: 'white',
     transition: 'all 0.4s ease',
     animation: `${positionAnim} 0.4s ease`,
     '.donate__btn': {

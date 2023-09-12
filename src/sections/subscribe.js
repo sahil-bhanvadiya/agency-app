@@ -70,7 +70,7 @@ export default function Subscribe() {
     handleSendGridResponse(res.status, text);
   };
   return (
-    <section>
+    <Box>
       <Container>
         <Box sx={styles.contentBox}>
           <Box sx={styles.contentBoxInner}>
@@ -119,7 +119,7 @@ export default function Subscribe() {
           </Box>
         </Box>
       </Container>
-    </section>
+    </Box>
   );
 }
 

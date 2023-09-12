@@ -1,8 +1,6 @@
 import { Container, Box, Heading, Text, Button } from 'theme-ui';
-import BannerImg from 'assets/banner-thumb.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
-import Image from 'next/image';
 
 export default function Banner() {
   return (
@@ -21,7 +19,6 @@ export default function Banner() {
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt="banner" />
         </Box>
       </Container>
     </Box>
@@ -37,7 +34,7 @@ const styles = {
     '&::before': {
       position: 'absolute',
       content: '""',
-      bottom: 6,
+      bottom: '-80px',
       left: 0,
       height: '100%',
       width: '100%',
@@ -45,12 +42,12 @@ const styles = {
       backgroundImage: `url(${ShapeLeft.src})`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: 'bottom left',
-      backgroundSize: '36%',
+      backgroundSize: '25%',
     },
     '&::after': {
       position: 'absolute',
       content: '""',
-      bottom: '40px',
+      bottom: '-20px',
       right: 0,
       height: '100%',
       width: '100%',
@@ -58,7 +55,7 @@ const styles = {
       backgroundImage: `url(${ShapeRight.src})`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: 'bottom right',
-      backgroundSize: '32%',
+      backgroundSize: '25%',
     },
     container: {
       minHeight: 'inherit',

@@ -1,4 +1,4 @@
-import { Container, Grid } from 'theme-ui';
+import { Box, Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
@@ -177,7 +177,7 @@ const data = [
 
 export default function TeamSection() {
   return (
-    <section>
+    <Box>
       <Container>
         <SectionHeader
           slogan="our team"
@@ -197,7 +197,7 @@ export default function TeamSection() {
           ))}
         </Grid>
       </Container>
-    </section>
+    </Box>
   );
 }
 

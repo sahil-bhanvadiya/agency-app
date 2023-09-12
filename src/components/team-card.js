@@ -57,7 +57,7 @@ const styles = {
     height: ['70px', '80px', '100px', null, null, '130px'],
     flexShrink: 0,
     border: '2px solid',
-    borderColor: '#EA3A60',
+    borderColor: '#9f4ee3',
     borderRadius: '50%',
   },
   infoWrapper: {
