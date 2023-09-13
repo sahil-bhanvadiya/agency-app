@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "baseUrl": "src"
   }
 }

@@ -9,8 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
     "next": "13.4.19",
+    "rc-drawer": "^6.4.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-multi-carousel": "^2.8.4",
+    "react-scroll": "^1.8.9",
+    "react-stickynode": "^4.1.0",
+    "theme-ui": "^0.16.1"
   }
 }
