@@ -55,7 +55,7 @@ export default function ServiceSection() {
           <Grid sx={styles.grid}>
             {data.features.map((item) => (
               <Box sx={styles.card} key={item.id}>
-                <Image src={item.imgSrc} alt={item.altText} sx={styles.icon} />
+                <Image src={item.imgSrc} alt={item.altText} style={styles.icon} />
 
                 <Box sx={styles.wrapper}>
                   <Heading sx={styles.wrapper.title}>{item.title}</Heading>
@@ -126,10 +126,8 @@ const styles = {
   },
 
   icon: {
-    width: ['45px', null, null, null, '55px'],
-    height: 'auto',
     flexShrink: 0,
-    mr: [3, null, null, null, 4],
+   marginRight: '10px'
   },
   wrapper: {
     width: '100%',

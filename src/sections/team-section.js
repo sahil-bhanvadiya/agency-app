@@ -3,19 +3,19 @@ import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 
-import Member1 from 'assets/team/member-1.png';
-import Member2 from 'assets/team/member-2.png';
-import Member3 from 'assets/team/member-3.png';
-import Member4 from 'assets/team/member-4.png';
-import Member5 from 'assets/team/member-5.png';
-import Member6 from 'assets/team/member-6.png';
+import Member3 from 'assets/team/member-1.png';
+import Member5 from 'assets/team/member-2.png';
+import Member6 from 'assets/team/member-3.png';
+import Member1 from 'assets/team/member-4.png';
+import Member4 from 'assets/team/member-5.png';
+import Member2 from 'assets/team/member-6.png';
 
 const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
+    altText: 'Mauricette Mayme',
+    title: 'Mauricette Mayme',
     designation: 'CEO and Founder',
     socialProfile: [
       {
@@ -41,8 +41,8 @@ const data = [
   {
     id: 2,
     imgSrc: Member2,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
+    altText: 'Madyson Elmo',
+    title: 'Madyson Elmo',
     designation: 'Founder',
     socialProfile: [
       {
@@ -68,8 +68,8 @@ const data = [
   {
     id: 3,
     imgSrc: Member3,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
+    altText: 'Madyson Elmo',
+    title: 'Madyson Elmo',
     designation: 'Web Designer',
     socialProfile: [
       {
@@ -95,8 +95,8 @@ const data = [
   {
     id: 4,
     imgSrc: Member4,
-    altText: 'Lina Jutila',
-    title: 'Lina Jutila',
+    altText: 'Sharalyn Charmaine',
+    title: 'Sharalyn Charmaine',
     designation: 'Web Developer',
     socialProfile: [
       {
@@ -122,8 +122,8 @@ const data = [
   {
     id: 5,
     imgSrc: Member5,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
+    altText: 'Mauricette Mayme',
+    title: 'Mauricette Mayme',
     designation: 'CEO and Founder',
     socialProfile: [
       {
@@ -149,8 +149,8 @@ const data = [
   {
     id: 6,
     imgSrc: Member6,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
+    altText: 'Madyson Elmo',
+    title: 'Madyson Elmo',
     designation: 'Web Designer',
     socialProfile: [
       {

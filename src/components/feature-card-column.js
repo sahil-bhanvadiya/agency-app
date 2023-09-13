@@ -9,7 +9,7 @@ export default function FeatureCardColumn({
 }) {
   return (
     <Box sx={styles.card}>
-      <Image src={src} alt={altText} sx={styles.img} />
+      <Image src={src} alt={altText} style={styles.img} />
 
       <Box sx={styles.wrapper}>
         <Heading sx={styles.wrapper.title}>{title}</Heading>
@@ -29,10 +29,7 @@ const styles = {
     px: [4, null, 0],
   },
   img: {
-    mx: ['auto', null, 0],
-    ml: ['auto', null, '-13px'],
-    mb: -2,
-    width: ['80px', null, null, '90px', null, 'auto'],
+    marginLeft: '-13px'
   },
   wrapper: {
     width: '100%',
