@@ -11,7 +11,7 @@ export default function PostCard({
   return (
     <Box sx={styles.card}>
       <Box sx={styles.thumbnail}>
-        <Image src={src} alt={alt} />
+        <Image src={src} alt={alt} height={300} style={{objectFit: 'cover'}}/>
       </Box>
 
       <Flex sx={styles.postContent}>
