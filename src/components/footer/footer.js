@@ -40,7 +40,7 @@ export default function Footer() {
             </nav>
           </Box>
           <Text sx={styles.footer.copyright}>
-            Copyright by {new Date().getFullYear()} RedQ, Inc
+            Copyright by {new Date().getFullYear()} Lorem Ipsum
           </Text>
         </Box>
       </Container>

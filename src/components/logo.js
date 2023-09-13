@@ -5,11 +5,12 @@ export default function Logo({ src, ...rest }) {
   return (
     <Link
       path="/"
-      sx={{
+      style={{
         variant: 'links.logo',
         display: 'flex',
         cursor: 'pointer',
         mr: 15,
+        zoom: '0.8',
       }}
       {...rest}
     >
